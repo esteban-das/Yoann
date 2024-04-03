@@ -34,7 +34,7 @@ p {
 
 body {
   font-family: 'Tw Cen Mt';
-  font-size: 25px;
+  font-size: 18px;
   background-color: black;
 }
 
@@ -65,7 +65,10 @@ nav ul li a:hover {
 }
 
 .photo {
-  text-align: center;
+  display: flex;
+  justify-content: center; /* Aligne horizontalement au centre */
+  align-items: center; /* Aligne verticalement au centre */
+  height: 70vh; /* Hauteur de l'élément à 100% de la hauteur de la fenêtre */;
 }
 
 .texte {
